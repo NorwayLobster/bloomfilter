@@ -1,8 +1,8 @@
 #include <string>
 #include <fstream>
 #include <stdint.h>
-#include "BloomFilter.hpp"
-#include "MurmurHash3.hpp"
+#include "bloomfilter/BloomFilter.hpp"
+#include "bloomfilter/MurmurHash3.hpp"
 
 BloomFilter::BloomFilter()
 :_bs(NULL)
