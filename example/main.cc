@@ -1,5 +1,5 @@
-#include "BloomFilter.h"
-#include "MurmurHash3.h"
+#include "bloomfilter/BloomFilter.hpp"
+#include "bloomfilter/MurmurHash3.hpp"
 #include <iostream>
 #include <fstream>
 #include <sstream>

@@ -5,9 +5,10 @@
 #include <bitset>
 #include <string>
 //Define of BitVector and M
-#define len 1<<26
+int one=1;
+int LEN=one << 26;
 #define M 5
-using bs=std::bitset<len>;
+using bs=std::bitset<1<<26>;
 
 class BloomFilter{
 public:
