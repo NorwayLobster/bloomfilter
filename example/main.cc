@@ -143,8 +143,7 @@ void test_bloom_filter_dump_read()
 	sleep(20);
 }
 
-int main()
-{
+int main(){
 	cout<<"Test Start."<<endl;
 
 	//test_init_dump();
